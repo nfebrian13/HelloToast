@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.nana.androidtrainingapps.RelativeActivity">
+
+    <Button
+        android:id="@+id/button_toast"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@color/colorPrimary"
+        android:text="@string/btnToast"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="@dimen/activity_horizontal_margin"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/show_count"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toEndOf="@id/button_toast"
+        android:layout_toRightOf="@id/button_toast"
+        android:background="@color/yellow"
+        android:gravity="center"
+        android:text="0"
+        android:textColor="@color/colorPrimary"
+        android:textSize="@dimen/count_text_size" />
+
+    <Button
+        android:id="@+id/button_count"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/button_toast"
+        android:background="@color/colorPrimary"
+        android:text="@string/btnCount"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="@dimen/activity_horizontal_margin"
+        android:textStyle="bold" />
+
+</RelativeLayout>

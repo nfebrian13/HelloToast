@@ -2,4 +2,7 @@
     <string name="app_name">Hello Toast</string>
     <string name="btnToast">TOAST</string>
     <string name="btnCount">COUNT</string>
+    <string name="btnLinear">Linear</string>
+    <string name="btnRelative">Relative</string>
+    <string name="btnConstant">Constant</string>
 </resources>

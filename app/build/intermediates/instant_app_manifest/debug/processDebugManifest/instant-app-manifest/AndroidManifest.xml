@@ -19,7 +19,10 @@
         android:supportsRtl="true"
         android:testOnly="true"
         android:theme="@style/AppTheme" >
-        <activity android:name="com.nana.androidtrainingapps.MainActivity" >
+        <activity android:name="com.nana.androidtrainingapps.MainActivity" />
+        <activity android:name="com.nana.androidtrainingapps.ConstraintActivity" />
+        <activity android:name="com.nana.androidtrainingapps.RelativeActivity" />
+        <activity android:name="com.nana.androidtrainingapps.MenuActivity" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

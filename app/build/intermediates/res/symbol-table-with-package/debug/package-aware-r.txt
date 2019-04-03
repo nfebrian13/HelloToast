@@ -660,6 +660,7 @@ dimen compat_control_corner_material
 dimen compat_notification_large_icon_max_height
 dimen compat_notification_large_icon_max_width
 dimen count_text_size
+dimen count_text_size1
 dimen disabled_alpha_material_dark
 dimen disabled_alpha_material_light
 dimen highlight_alpha_material_colored
@@ -824,6 +825,9 @@ id barrier
 id beginning
 id blocking
 id bottom
+id btnConstraint
+id btnLinear
+id btnRelative
 id buttonPanel
 id button_count
 id button_toast
@@ -934,6 +938,7 @@ id titleDividerNoCustom
 id title_template
 id top
 id topPanel
+id txtView
 id uniform
 id up
 id useLogo
@@ -973,7 +978,10 @@ layout abc_search_dropdown_item_icons_2line
 layout abc_search_view
 layout abc_select_dialog_material
 layout abc_tooltip
+layout activity_constraint
 layout activity_main
+layout activity_menu
+layout activity_relative
 layout notification_action
 layout notification_action_tombstone
 layout notification_template_custom_big
@@ -1026,7 +1034,10 @@ string abc_shareactionprovider_share_with
 string abc_shareactionprovider_share_with_application
 string abc_toolbar_collapse_description
 string app_name
+string btnConstant
 string btnCount
+string btnLinear
+string btnRelative
 string btnToast
 string search_menu_title
 string status_bar_notification_info_overflow
