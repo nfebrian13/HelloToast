@@ -8,7 +8,6 @@ import android.widget.TextView;
 import android.widget.Toast;
 
 public class MainActivity extends AppCompatActivity {
-
     private Button button_toast, button_count;
     private TextView show_count;
     private Integer count = 0;
